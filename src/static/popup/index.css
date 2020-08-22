@@ -3,7 +3,7 @@
   --lightblue: var(--blue-40);
   --whitesmokeBorder: var(--grey-30);
   --whitesmoke: var(--grey-10);
-  --bgColor: var(--whitesmoke);
+  --bgColor: var(--silver);
   --searchBarFocusColor:  var(--lightblue);
   --blue: var(--blue-60);
   --tabFocusColor: var(--blue);
@@ -24,7 +24,8 @@ body {
 
 
 input[type="search"] {
-  color: var(--grey-90);
+  color: #EEEEEE;
+  background-color: #797979;
   line-height: 2em;
   width: 300px;
   margin: auto;
@@ -42,6 +43,7 @@ header {
   border-bottom: 1px;
   border-style: solid;
   border-color: var(--whitesmokeBorder);
+  background-color: #494949;
 }
 
 #pref-btn {
@@ -71,7 +73,8 @@ header {
 	overflow-y: scroll;
 	overflow-x: hidden;
 	height: 450px;
-  background-color: #fff;
+  background-color: #494949;
+  color: #EEEEEE;
   border-color: var(--whitesmokeBorder);
   border-style: solid;
   border-bottom: 1px;
@@ -110,7 +113,8 @@ header {
 }
 
 .tab-object {
-  color: var(--grey-90);
+  /* color: var(--grey-90); */
+  color: #EEEEEE;
   display: flex;
 	align-items: center;
 	justify-content: center;
