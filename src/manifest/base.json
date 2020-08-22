@@ -34,7 +34,7 @@
     "_execute_browser_action": {
       "suggested_key": {
         "default": "Ctrl+Shift+F",
-        "mac": "Ctrl+Shift+L"
+        "mac": "Ctrl+Shift+K"
       },
       "description": "Execute this browser action"
     }
